@@ -1,0 +1,15 @@
+tpl=(20,30,40,"xyz",40,20,30)
+print(tpl)
+print(type(tpl))
+print(tpl)
+print(tpl.count(20))
+print(tpl.index("xyz"))
+print(tpl*3)
+print(tpl[3])
+
+lst=[30,40,50,"xyz"]
+print(type(lst))
+print(lst)
+tpl2=tuple(lst)
+print(type(tpl2))
+print(tpl2)

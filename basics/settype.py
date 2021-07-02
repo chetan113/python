@@ -1,0 +1,17 @@
+s={20,30,40,"xyz",20,30}
+print(s)
+print(type(s))
+#print(s*2)
+#print(s[2:5])
+s.update([50,88])
+#print(s[2])
+print(s)
+s.remove(88)
+print(s)
+s.update([99])
+print(s)
+s.remove(99)
+print(s)
+
+f=frozenset(s)
+print(f)

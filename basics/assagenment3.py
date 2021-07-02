@@ -1,0 +1,10 @@
+lst=["india","america","australia"]
+print(lst)
+print(type(lst))
+lst.append("unitedkingdowm")
+print(lst)
+lst.remove("america")
+print(lst)
+max(lst)
+lst.insert(2,"africa")
+print(lst)
